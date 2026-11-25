@@ -58,3 +58,15 @@ th, td {
 .reviewed { font-size: 0.8rem; color: #888; }
 li > input[type="checkbox"] { margin-right: 0.4rem; }
 li:has(> input[type="checkbox"]) { list-style: none; margin-left: -1.2rem; }
+.progress {
+  margin: 1rem 0;
+  padding: 0.7rem 1rem;
+  background: #e8f4f8;
+  border-left: 4px solid #1f6f8b;
+  border-radius: 4px;
+}
+.progress h2 { margin: 0 0 0.3rem; font-size: 1.1rem; }
+.progress ul { margin: 0; }
+a.edit { margin-left: 0.6rem; font-size: 0.82rem; color: #666; }
+.edit-note { margin-top: 2.5rem; border-top: 1px solid #ddd; padding-top: 0.6rem; }
+.edit-note a.edit { margin-left: 0; }
